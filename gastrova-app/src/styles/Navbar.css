@@ -1,0 +1,42 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+  background-color: #252525;
+  color: white;
+}
+
+.navbar-logo h2 {
+  margin: 0;
+  color: #e9a23b;
+  font-size: 26px;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 30px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar-links a:hover {
+  color: #e9a23b;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .navbar-links {
+    gap: 15px;
+  }
+}
+    
